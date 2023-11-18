@@ -14,10 +14,10 @@ export class Aeropuerto {
     id: string;
   
     @Column()
-    name: string;
+    nombre: string;
   
     @Column()
-    codigo: number;
+    codigo: string;
 
     @Column()
     pais: string;
